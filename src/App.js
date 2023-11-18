@@ -7,7 +7,7 @@ import Entry from './components/Entry'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Entry />} />
+      <Route path="/hbd" element={<Entry />} />
       <Route path="/main" element={<Main />} />
     </Routes> 
   );
