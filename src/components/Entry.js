@@ -33,11 +33,27 @@ const Entry = () => {
             </div>
           </main>
 
-        {showButton && (
-            <Link to="/main" className="myButton">
-                See Birthday Present
-            </Link>
-        )}
+          {showButton && (
+            <>
+              <div>
+                <Link to="/main" className="myButton">
+                  See Birthday Present
+                </Link>
+              </div>
+              <div className="message">
+                <p>
+                  Happy 22nd birthday babyyyy! You are a blessing to this world and to me. <br>
+                  </br>
+                  I really hope that you would keep striving to be the best version of you and to not ever <br>
+                  </br>
+                  give up on your dreams,<br>
+                  </br>
+                  I created this as one of the gifts I have for you and I hope you would like it!!
+                </p>
+              </div>
+            </>
+          )}
+
         </div>
       );
 }
